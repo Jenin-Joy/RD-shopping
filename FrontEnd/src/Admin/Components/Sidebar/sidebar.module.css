@@ -1,0 +1,66 @@
+.sidebars{
+    width:15%;
+    /* background-color: var(--main-color); */
+    margin:10px;
+}
+.card {
+    padding: 10px;
+}
+
+.card a{
+    text-decoration: none;
+    color: white;
+}
+
+.headings {
+    color: white;
+    text-decoration: none;
+    background-color: var(--main-color);
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 175px;
+}
+.headings:hover{
+    color: #ff890b;
+}
+
+.adminicon {
+    width: 75px;
+    height: 75px;
+    color: white;
+}
+
+.adminicon:hover {
+    color: var(--hover-color);
+    background-color: white;
+}
+
+.scroll {
+    gap: 15px;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.activelg {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    border-radius: 50%;
+    animation-name: actlg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes actlg {
+    from {background-color: rgb(120, 255, 47); box-shadow: 0 0 20px 3px rgb(120, 255, 47);}
+  to {background-color: var(--main-color)}
+}

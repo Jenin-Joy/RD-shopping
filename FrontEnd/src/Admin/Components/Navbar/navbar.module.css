@@ -1,0 +1,17 @@
+.navbar {
+    /* background-color: var(--main-color); */
+    margin-top:10px;
+    height:10%;
+    width:1130px;
+    padding: 20px;
+}
+.headings {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    /* padding-top: 5px; */
+}
+
+.headings span:hover{
+    color: var(--hover-color);
+}

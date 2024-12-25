@@ -1,0 +1,10 @@
+:root {
+    --main-color:#1d1d1d;
+    --hover-color: #fe8d24;
+}
+.side-box{
+    height:100vh;
+}
+.bodybg {
+    background-color: black;
+}
